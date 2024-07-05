@@ -12,6 +12,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:  cover;
+    height: 1100px;
 }
 
 section{
@@ -21,8 +22,9 @@ section{
 #home img{
     width: 80%;
 }
-.acomodacao{
-    padding: 100px 200px;
+.acomodacao, .reservas, .sobre{
+    width: 100.80%;;
+    padding: 10px !important;
     text-align: center;
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
@@ -36,10 +38,20 @@ section{
     text-decoration: underline;
 }
 
-.reservas{
-    padding: 100px 200px;
-    text-align: center;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
 
+
+iframe{
+    width: 730px;
+    height: 780px;
+
+}
+
+#sobre img{
+    width: 730px;
+    height: 589px;
+}
+
+.footer-title {
+    background-color: black;
+    color: white;
 }
